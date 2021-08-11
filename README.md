@@ -8,7 +8,7 @@ Written to process reports from 12 year-old software, which puts out files that 
 
 Anyway! This module will prompt the user to select a source directory (and/or save directory, see option 3 below). When selected, it will automatically export all .xls files in this directory to .csv files, either in the same directory or in another directory of the user's choosing.
 
-This script has to be run from within Excel, usually by importing the .bas as a module. When it imports, you'll see there are several configurable options at the top, including: 1.) an option to delete the first *x* rows (these are an unneccesary pseudo-header in the files I was working from); 2.) whether or not to prompt the user to confirm their folder selections; 3.) an option to either save to the same folder as the source file or select a different save folder; and 4.) an option to keep the same filename or create a custom filename using the contents of the .xls file.
+This script has to be run from within Excel, usually by importing the .bas as a module. (I added a Conversion Tool in VBScript that does this automatically when launched.) When the module imports, you'll see there are several configurable options at the top, including: 1.) an option to delete the first *x* rows (these are an unneccesary pseudo-header in the files I was working from); 2.) whether or not to prompt the user to confirm their folder selections; 3.) an option to either save to the same folder as the source file or select a different save folder; and 4.) an option to keep the same filename or create a custom filename using the contents of the .xls file.
 
 -------------------------------------------------------------------------------------------------------------
 
